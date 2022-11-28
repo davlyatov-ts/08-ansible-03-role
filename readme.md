@@ -101,7 +101,7 @@ Starting galaxy role install process
 - clickhouse (1.11.0) was installed successfully
 - extracting cighthouse to /home/pi/DevOps/CI/08-ansible-03-role/roles/cighthouse
 - cighthouse (1.0.0) was installed successfully
-- extracting vector to /home/alex/DevOps/CI/08-ansible-03-role/roles/vector
+- extracting vector to /home/pi/DevOps/CI/08-ansible-03-role/roles/vector
 - vector (1.0.0) was installed successfully
 ```
 ____________________________________________________
