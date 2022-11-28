@@ -1,0 +1,13 @@
+{{ vector_config | to_nice_yaml }}
+alex@alexPC:~/DevOps/CI/08-ansible-03-role$ cat roles/vector/templates/vector.service.j2 
+[Unit]
+Description=Vector service
+After=network.target
+Requires=network-online.target
+[Service]
+User=root
+Group=root
+ExecStart=/usr/bin/vector --config-yaml vector.yml --watch-config
+Restart=always
+[Install]
+WantedBy=multi-user.target
